@@ -2,10 +2,13 @@ baseURL = "https://alex-bouma-dev.netlify.com/"
 languageCode = "en-us"
 title = "Alex Bouma"
 theme = "terminal"
+author = "Alex Bouma"
 
 paginate = 10
 
 [params]
+  author = "Alex Bouma"
+  tagline = "PHP artisan, full stack developer and server lover | Founder @simulise | Building https://chief.app"
   contentTypeName = "posts"
   themeColor = "orange"
 

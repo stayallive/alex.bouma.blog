@@ -5,8 +5,6 @@ theme = "terminal"
 
 paginate = 10
 
-enableRobotsTXT = true
-
 [params]
   contentTypeName = "posts"
   themeColor = "orange"

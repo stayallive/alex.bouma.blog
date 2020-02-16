@@ -1,0 +1,68 @@
+baseURL = "https://alex.bouma.dev/"
+languageCode = "en-us"
+title = "Alex Bouma"
+theme = "terminal"
+
+paginate = 10
+
+enableRobotsTXT = true
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 4
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Alex Bouma"
+    subtitle = "Entrepreneur, developer and artisan"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Alex Bouma"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+		weight = 1
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+		weight = 2
+      [[languages.en.menu.main]]
+        identifier = "public-key"
+        name = "Public key"
+        url = "/public-key"
+		weight = 3
+      [[languages.en.menu.main]]
+        identifier = "chief"
+        name = "Chief Tools"
+        url = "https://chief.app/"
+		weight = 100

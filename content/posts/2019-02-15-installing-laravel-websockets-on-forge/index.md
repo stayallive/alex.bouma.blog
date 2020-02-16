@@ -11,7 +11,7 @@ tags:
 date: 2019-01-15T12:28:00+01:00
 description: "Learn how to run the Laravel Websockets package in Laravel and deploying it to a Forge provisioned server with SSL."
 draft: false
-cover: https://images.unsplash.com/photo-1527427337751-fdca2f128ce5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+cover: /img/ghost/unsplash-code-ws.jpg
 ---
 
 It seems the documentation and or explanation on how to use [Laravel Websockets](https://docs.beyondco.de/laravel-websockets/) on Forge with SSL is not sufficient or clear enough and some have asked for an in-depth overview on how to install Laravel Websockets in Laravel and deploy it to Forge with SSL (be it via Let's Encrypt or Cloudlfare).

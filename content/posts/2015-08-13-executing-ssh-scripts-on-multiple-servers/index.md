@@ -3,7 +3,7 @@ author = "Alex Bouma"
 date = 2015-08-13T12:58:00+01:00
 description = ""
 draft = false
-cover = "https://images.unsplash.com/photo-1495639176971-74ae06bf1b91?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=95858d677f390670045758b22c843ef5"
+cover = "/img/ghost/unsplash-highway.jpg"
 slug = "executing-ssh-scripts-on-multiple-servers"
 tags = ["app", "saas"]
 title = "Executing SSH scripts on multiple servers"

@@ -28,3 +28,24 @@ HUGO_VERSION = "0.64.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "http://alex-bouma-dev.netlify.com/*"
+  to = "https://alex.bouma.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://alex-bouma-dev.netlify.com/*"
+  to = "https://alex.bouma.dev/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Strict-Transport-Security = "max-age=63072000; preload"

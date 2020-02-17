@@ -2,17 +2,19 @@
 title: "Public key"
 ---
 
-I am also on [Keybase](https://keybase.io/stayallive/) if that is your thing.
+#### Server access
 
-If you ever need to give me access to a server.
+If you ever need to give me access to a server whitelist the following `ed25519` public key.
 
-```
+```ssh
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKkoFje/EO1nsUbSchxh2UigxgP5o0J10R+jRGEpHKsj me@alexbouma.me
 ```
 
-Or if you want to send me some encrypted stuff.
+#### Encrypted contact
 
-```
+If you need to send me some encrypted stuff use the followign public key.
+
+```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFcEGvYBEACYPTPr9wtvaaIvzi/lkBr/OHKbKcYWA4hJLghCC0n8d7ycPoXx
@@ -65,3 +67,5 @@ Dr9H9AZAWig=
 =Xs6Z
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+
+I am also on [Keybase](https://keybase.io/stayallive/) if that is your thing.

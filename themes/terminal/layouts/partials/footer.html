@@ -1,13 +1,14 @@
 <footer class="footer">
   <div class="footer__inner">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">
-        <span>{{ $.Site.Copyright | safeHTML }}</span>
-    {{else}}
       <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
-    {{end}}
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+        <span>
+          © {{ now.Year }} Alex Bouma
+          :: Found an error? <a href="https://github.com/stayallive/alex.bouma.dev" rel="noopener">Help me fix it</a>
+          <br>
+          Powered by <a href="http://gohugo.io" rel="noopener">Hugo</a>
+          :: <a href="https://github.com/panr/hugo-theme-terminal" rel="noopener">Theme</a> made by <a href="https://twitter.com/panr" rel="noopener">panr</a>
+          :: Hosted by <a href="https://www.netlify.com/" rel="noopener">Netlify</a>
+        </span>
       </div>
   </div>
 </footer>

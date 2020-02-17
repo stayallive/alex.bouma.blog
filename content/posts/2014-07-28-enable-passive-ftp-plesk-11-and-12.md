@@ -31,7 +31,7 @@ This changes will tell ProFTPD to use ports `60000-65534` for passive connection
 
 Now we will have to add a firewall rule in plesk.
 
-![Adding a custom rule to the Plesk firewall.](/img/ghost/Screen-Shot-2014-07-29-at-02-31-40-284x3001.png)
+![Adding a custom rule to the Plesk firewall.](/img/ghost/Screen-Shot-2014-07-29-at-02-31-40-284x3001.jpg)
 
 - Login to your plesk panel
 - Go to “Server Management” > “Tools & Settings” > “Security” > “Firewall”

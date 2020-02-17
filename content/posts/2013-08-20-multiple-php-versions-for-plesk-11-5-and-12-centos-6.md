@@ -88,6 +88,6 @@ sed -i "s#;date.timezone =#date.timezone = $timezone#" /usr/local/php-5.3.27/etc
 
 And with that you should have a working PHP 5.3.27 visible in your Plesk control panel.
 
-![plesk-php-5-3-27](/img/ghost/plesk-php-5-3-271.png)
+![plesk-php-5-3-27](/img/ghost/plesk-php-5-3-271.jpg)
 
 You can repeat this process for other versions you might want to install by changing 5.3.27 to your disired version (for example 5.4.18 or 5.5.2).

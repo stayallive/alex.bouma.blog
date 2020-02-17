@@ -9,7 +9,7 @@ title = "Finally, Plesk 12 supports multiple PHP versions out of the box!"
 aliases = ["/finally-plesk-12-supports-multiple-php-versions-out-of-the-box"]
 +++
 
-![Multiple versions](/img/ghost/Screen-Shot-2015-04-07-at-22-05-26.png)
+![Multiple versions](/img/ghost/Screen-Shot-2015-04-07-at-22-05-26.jpg)
 
 Today I noticed that Plesk 12 since micro update 41 can install PHP 5.2 up to ~~5.6~~ 7.0 via the built-in installer, this makes the scripts I made obsolete.
 

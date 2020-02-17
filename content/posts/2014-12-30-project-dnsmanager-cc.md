@@ -20,4 +20,4 @@ It is also possible to use our whitelabel nameservers and reseller functionality
 
 Try [dnsmanager.io](https://app.dnsmanager.io/ "dnsmanager.io") unlimited for free! For question and/or sales questions please contact us through [support@dnsmanager.io](mailto:support@dnsmanager.io).  
   
-![dnsmanager.io](/img/ghost/Screen-Shot-2014-12-31-at-00-43-221.png)
+![dnsmanager.io](/img/ghost/Screen-Shot-2014-12-31-at-00-43-221.jpg)

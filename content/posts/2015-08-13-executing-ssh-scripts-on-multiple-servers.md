@@ -24,7 +24,7 @@ The one thing led to another and I installed me a fresh [Laravel](http://laravel
 
 I started with server management, I needed to add all my servers and the app should be able to logon to the server. I wanted it to be transparant to the user so I decided to generate a public/private key pair for each server to use as credentials so that I did not need to store passwords and users can easilly revoke access without removing the server from the dashboard.
 
-![Server Chief Dashboard](/img/ghost/Screen-Shot-2015-08-13-at-15-24-17-1024x230.png)
+![Server Chief Dashboard](/img/ghost/Screen-Shot-2015-08-13-at-15-24-17-1024x230.jpg)
 
 This was all very straight forward, I pulled in the [phpseclib](https://packagist.org/packages/phpseclib/phpseclib) package to generate a RSA public/private key pair and saved them with a server name, host, user and location to the database (the private key is stored encrypted).
 
@@ -32,7 +32,7 @@ This was all very straight forward, I pulled in the [phpseclib](https://packagis
 
 Then on to the next section, I needed to be able to define scripts, so I could easily start them without typing them each time… makes sense, right 🙂
 
-![Server Chief script editor](/img/ghost/Screen-Shot-2015-08-13-at-15-30-40-1024x516.png)
+![Server Chief script editor](/img/ghost/Screen-Shot-2015-08-13-at-15-30-40-1024x516.jpg)
 
 For the script editor I used the [CodeMirror](http://codemirror.net/) editor with the shell syntax highlighting.
 
@@ -40,15 +40,15 @@ For the script editor I used the [CodeMirror](http://codemirror.net/) editor wit
 
 Now comes the really interesting (and cool) part of the app. The script execution!
 
-![Server Chief queuing execution](/img/ghost/Screen-Shot-2015-08-13-at-15-34-26-1024x320.png)
+![Server Chief queuing execution](/img/ghost/Screen-Shot-2015-08-13-at-15-34-26-1024x320.jpg)
 
 When you queue an execution you can select the script and on which servers the script should be executed, there is no limit on how many servers at once you can execute, if the app is too busy with other requests the execution simply waits on the queue as the interface will indicate.
 
-![Server Chief job waiting](/img/ghost/Screen-Shot-2015-08-13-at-15-46-11-1024x218.png)
+![Server Chief job waiting](/img/ghost/Screen-Shot-2015-08-13-at-15-46-11-1024x218.jpg)
 
 When the app starts running the script the interface updates in realtime, showing the server output and the start time, as wel as the execution time when finished and if the script finished successfully or with errors).
 
-![Server Chief successfull execution](/img/ghost/Screen-Shot-2015-08-13-at-15-49-30-1024x793.png)
+![Server Chief successfull execution](/img/ghost/Screen-Shot-2015-08-13-at-15-49-30-1024x793.jpg)
 
 Each execution has it’s own job on the queue so if one server fails the rest continues on just fine untill they are all done. The interface is updates realtime using [Slanger](https://github.com/stevegraham/slanger) a open source server implementation of [Pusher](https://pusher.com/).
 

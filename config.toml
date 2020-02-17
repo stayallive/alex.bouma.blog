@@ -3,9 +3,9 @@ languageCode = "en-us"
 title = "Alex Bouma"
 theme = "terminal"
 author = "Alex Bouma"
-disqusShortname = "alexbouma"
-
 paginate = 10
+disqusShortname = "alexbouma"
+enableRobotsTXT = true
 
 [params]
   author = "Alex Bouma"

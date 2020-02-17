@@ -22,6 +22,8 @@ We provide shared and managed hosting services on dedicated or virtual private s
 
 In the few free hours I have I do some consulting and work on a freelance basis as [Devalex](https://devalex.nl/). I work with very little to very big companies from setting up infrastructure to checking out their code or to simply step in to get sh*t done.
 
+I'm also one of the core developers for the [Sentry](https://sentry.io) [PHP SDK](https://github.com/getsentry/sentry-php) and the [Laravel integration](https://github.com/getsentry/sentry-php) (and unofficially also the [WordPress integration](https://github.com/stayallive/wp-sentry)). If you don't know Sentry and build any kind of application, go check them out to level up your error reporting.
+
 And if that wasn't enough things to keep me busy I'm also building [Chief Tools](https://chief.app/) (mostly scratching my own itch).
 
 ~~<del datetime="2016-01-26T18:30:00+00:00">Currently</del>~~ I worked as resident code monkey [@iCulture](http://iculture.nl), the largest (and best of course) Dutch Apple focused news site. Here I ~~work~~ worked to make WordPress less awkward and [better/faster/stronger](https://www.youtube.com/watch?v=gAjR4_CbPpQ) for the writers and readers. The site is built on WordPress, but also uses the [Laravel Lumen](http://lumen.laravel.com) framework (to make our iOS apps blazing fast 🔥) and [Elasticsearch](https://www.elastic.co/) (as our awesome [search](http://www.iculture.nl/?s=nieuwe%20zoekfunctie) backbone).

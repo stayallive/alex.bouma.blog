@@ -1,15 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-author: ""
-cover: ""
+author: Alex Bouma
+cover: 
 tags:
-  - ""
-  - ""
-keywords:
-  - ""
-  - ""
-description: ""
+  - 
+  - 
+description: 
 showFullContent: false
 draft: true
 ---

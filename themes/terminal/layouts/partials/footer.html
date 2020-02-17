@@ -13,8 +13,8 @@
   </div>
 </footer>
 
-<script src="{{ "assets/main.js" | absURL }}?v={{ now.Unix }}"></script>
-<script src="{{ "assets/prism.js" | absURL }}?v={{ now.Unix }}"></script>
+<script src="{{ (resources.Get "main.js" | resources.Fingerprint).Permalink }}"></script>
+<script src="{{ (resources.Get "prism.js" | resources.Fingerprint).Permalink }}"></script>
 
 <!-- Extended footer section-->
 {{ partial "extended_footer.html" . }}

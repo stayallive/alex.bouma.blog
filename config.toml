@@ -6,6 +6,7 @@ author = "Alex Bouma"
 paginate = 10
 disqusShortname = "alexbouma"
 enableRobotsTXT = true
+assetDir = "themes/terminal/static/assets"
 
 [params]
   author = "Alex Bouma"

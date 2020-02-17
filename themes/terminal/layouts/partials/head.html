@@ -8,7 +8,8 @@
 {{ template "_internal/google_analytics.html" . }}
 
 <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}?v={{ now.Unix }}">
+
+<link rel="stylesheet" href="{{ (resources.Get "style.css" | resources.Fingerprint).Permalink }}">
 
 <!-- Icons -->
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ "favicons/apple-touch-icon-57x57.png" | absURL }}" />

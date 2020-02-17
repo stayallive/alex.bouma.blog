@@ -12,25 +12,10 @@ paginate = 10
   tagline = "PHP artisan, full stack developer and server lover | Founder @simulise | Building https://chief.app"
   contentTypeName = "posts"
   themeColor = "orange"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
-
-  # show selector to switch language
+  showMenuItems = 6
   showLanguageSelector = false
-
-  # set theme to full screen width
   fullWidthTheme = false
-
-  # center theme with default width
   centerTheme = true
-
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
-
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
 
 [languages]
   [languages.en]
@@ -52,19 +37,29 @@ paginate = 10
         identifier = "about"
         name = "About"
         url = "/about"
-		weight = 1
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "/posts"
-		weight = 2
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "public-key"
         name = "Public key"
         url = "/public-key"
-		weight = 3
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "chief"
         name = "Chief Tools"
         url = "https://chief.app/"
-		weight = 100
+        weight = 100
+      [[languages.en.menu.main]]
+        identifier = "social-github"
+        name = "GitHub"
+        url = "https://github.com/stayallive"
+        weight = 200
+      [[languages.en.menu.main]]
+        identifier = "social-twitter"
+        name = "Twitter"
+        url = "https://twitter.com/stayallive"
+        weight = 200

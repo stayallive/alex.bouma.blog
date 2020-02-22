@@ -51,7 +51,7 @@ nano /etc/certbot/domain.com.conf
 
 Add the following contents to this file:
 
-```
+```ini
 # Use the webroot authenticator. 
 authenticator = webroot
 
@@ -158,7 +158,7 @@ nano /etc/cron.monthly/renew-ssl-certificates
 
 Add the following contents to that file:
 
-```
+```bash
 #!/bin/bash
 
 /opt/certbot/letsencrypt-auto certonly -c /etc/certbot/domain.com.conf --renew-by-default

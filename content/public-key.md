@@ -12,7 +12,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKkoFje/EO1nsUbSchxh2UigxgP5o0J10R+jRGEpHKsj
 
 #### Encrypted contact
 
-If you need to send me some encrypted stuff use the followign public key.
+If you need to send me some encrypted stuff use the following public key.
 
 ```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----

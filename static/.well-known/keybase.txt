@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/stayallive
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alex.bouma.dev
+  * I am stayallive (https://keybase.io/stayallive) on keybase.
+  * I have a public key ASD24beNMUwZ7MLT7ouqPApj6kYvdvep1sT4VZWZx2t41Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017532ee8cf6d7250ff73b1d24c3371bc9cc5260ea22494120719ed7e16f1553320a",
+      "host": "keybase.io",
+      "kid": "0120f6e1b78d314c19ecc2d3ee8baa3c0a63ea462f76f7a9d6c4f8559599c76b78d50a",
+      "uid": "f79f9b31d446b692fdb6720e881cc200",
+      "username": "stayallive"
+    },
+    "merkle_root": {
+      "ctime": 1590242315,
+      "hash": "917187607a4324572259cebd7f90dd7a767da96885e26d9706440edb4f2f9e14c12cb5fcb1ef723a8138f956f1ab4b6bafc2016d1ad799a735df4abc0d514cfe",
+      "hash_meta": "64f054457b1c0543de435dcf530b8af33c1b1513a86c74aa27df13148e27b93b",
+      "seqno": 16385612
+    },
+    "service": {
+      "entropy": "5fuRn8UOobQbhy8xPGgG8zrU",
+      "hostname": "alex.bouma.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1590242404,
+  "expire_in": 504576000,
+  "prev": "1f3d0740383703441f0f9b5113f6298bfc725f5e9e79b2d21e0d2da5c4849d75",
+  "seqno": 43,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9uG3jTFMGezC0+6LqjwKY+pGL3b3qdbE+FWVmcdreNUKp3BheWxvYWTESpcCK8QgHz0HQDg3A0QfD5tRE/Ypi/xyX16eebLSHg0tpcSEnXXEIIzks0dUcq1Ch46uvVFefCOlbHy/vTn/ABDpCdjF5zwHAgHCo3NpZ8RAhgOn1A9EUJH73lnT49qQsnbP/GdY0ZlA1L0gW6C2wA2m1Bl6WuQaRDL/l0/OmmTj6afI6/2kycX0DQyqvVEdA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILVhpBFsf97IIT7ul3N7q/6GmyX/cvrVlQ7OT0BoJMt3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stayallive
+
+==================================================================

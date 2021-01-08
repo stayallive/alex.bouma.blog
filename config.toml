@@ -1,4 +1,3 @@
-baseURL = "https://alex.bouma.dev/"
 languageCode = "en-us"
 title = "Alex Bouma"
 theme = "terminal"

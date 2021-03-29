@@ -1,10 +1,10 @@
-This is the content of [alex.bouma.dev](https://alex.bouma.dev).
+This is the content of [alex.bouma.blog](https://alex.bouma.blog).
 
 See a problem with my site? Please leave a comment, open an issue, or just submit a pull request!
 
 ## Technology
 
-It's rendered via [Hugo](https://gohugo.io) using a modified version of the [Terminal](https://github.com/panr/hugo-theme-terminal) theme and hosted by [Netlify](https://netlify.com).
+It's rendered via [Hugo](https://gohugo.io) using a modified version of the [Terminal](https://github.com/panr/hugo-theme-terminal) theme and hosted by [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Security Vulnerabilities
 

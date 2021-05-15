@@ -10,7 +10,12 @@ tags:
   - guide
 date: 2019-01-15T12:28:00+01:00
 lastmod: 2021-05-15T21:00:00+02:00
-description: "Learn how to run the Laravel WebSockets package in Laravel and deploying it to a Forge provisioned server with SSL."
+description: "Learn how to run Laravel WebSockets for deployment to Laravel Forge with SSL."
+summary: "Learn how to run Laravel WebSockets for deployment to Laravel Forge with SSL."
+keywords:
+  - laravel
+  - websockets
+  - forge
 draft: false
 cover: /img/ghost/unsplash-code-ws.jpg
 ---

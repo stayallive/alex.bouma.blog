@@ -2,7 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
 <meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
-<meta name="robots" content="noodp"/>
 <link rel="canonical" href="{{ .Permalink }}" />
 
 {{ template "_internal/google_analytics.html" . }}

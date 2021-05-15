@@ -14,11 +14,6 @@
         Published {{ .Date.Format "2006-01-02" }}
       </span>
       {{ end }}
-      {{ if .Params.Author }}
-      <span class="post-author">
-          {{ if not .Date.IsZero }}:: {{ end }}{{ .Params.Author}}
-      </span>
-      {{ end }}
   </div>
 
   {{ if .Params.tags }}

@@ -36,9 +36,11 @@
     </span>
     {{ end }}
 
-    {{ with .Params.Cover }}
-    <img src="{{ . | absURL }}" class="post-cover" />
-    {{ end }}
+    <a href="{{ .Permalink }}">
+      {{ with .Params.Cover }}
+        <img src="{{ . | absURL }}" class="post-cover" />
+      {{ end }}
+    </a>
 
     <div class="post-content">
       {{ if .Params.showFullContent }}

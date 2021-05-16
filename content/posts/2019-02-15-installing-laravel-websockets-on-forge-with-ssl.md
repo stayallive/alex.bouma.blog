@@ -1,8 +1,9 @@
 ---
-title: Laravel WebSockets on Forge
-slug: installing-laravel-websockets-on-forge
+title: Laravel WebSockets on Forge with SSL
+slug: installing-laravel-websockets-on-forge-with-ssl
 aliases:
   - /installing-laravel-websockets-on-forge
+  - /posts/installing-laravel-websockets-on-forge
 author: Alex Bouma
 tags:
   - laravel

@@ -62,7 +62,7 @@
   &-cover {
     border: 20px solid var(--accent);
     background: transparent;
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 20px;
 
     @media (--phone) {

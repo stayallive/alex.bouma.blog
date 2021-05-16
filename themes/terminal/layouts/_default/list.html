@@ -14,16 +14,16 @@
     <h1 class="post-title">
       <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
     <div class="post-meta">
-      {{ if not (eq .Lastmod .Date) }}
-      <span class="post-date">
-        Updated {{ .Lastmod.Format "2006-01-02" }}
-      </span>
-      ::
-      {{ end }}
       {{ if not .Date.IsZero }}
       <span class="post-date">
-        Published {{ .Date.Format "2006-01-02" }}
+        {{ .Date.Format "2006-01-02" }}
       </span>
+      {{ if not (eq .Lastmod .Date) }}
+        ::
+        <span class="post-date">
+          Updated {{ .Lastmod.Format "2006-01-02" }}
+        </span>
+      {{ end }}
       {{ end }}
     </div>
 

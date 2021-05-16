@@ -15,7 +15,7 @@ This script will automatically install & configure PHP 5.5.23 on Plesk 11.5 & 12
 
 #### Usage
 
-==Disclaimer: use this at your own risk! Please read and understand the script before executing!==
+> **Disclaimer**: Use this at your own risk! Please read and understand the script before executing
 
 ```bash
 wget -O - https://gist.githubusercontent.com/Stayallive/92e841e7dd89c8509c15/raw/3bc61e5bc304ea0346a0efb417cbb6378f70b9b3/install.sh | bash

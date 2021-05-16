@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2014-07-21T21:04:00+01:00
-description = ""
 draft = false
 slug = "project-statusapp-cc"
 tags = ["cloud", "laravel", "saas", "projects"]

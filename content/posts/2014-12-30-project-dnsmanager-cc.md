@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2014-12-30T23:56:00+01:00
-description = ""
 draft = false
 slug = "project-dnsmanager-cc"
 tags = ["dns", "laravel", "plesk", "projects", "saas"]

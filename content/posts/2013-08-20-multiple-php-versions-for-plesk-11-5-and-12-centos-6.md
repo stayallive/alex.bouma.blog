@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2013-08-20T18:36:00+01:00
-description = ""
 draft = false
 slug = "multiple-php-versions-for-plesk-11-5-and-12-centos-6"
 tags = ["centos", "guide", "php", "plesk"]

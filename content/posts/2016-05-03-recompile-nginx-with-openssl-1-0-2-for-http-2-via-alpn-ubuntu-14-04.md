@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2016-05-03T18:28:00+01:00
-description = ""
 draft = false
 cover = "/img/ghost/http2-ok.jpg"
 slug = "recompile-nginx-with-openssl-1-0-2-for-http-2-via-alpn-ubuntu-14-04"

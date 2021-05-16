@@ -16,7 +16,7 @@ This script will automatically install & configure PHP 5.4.39 on Plesk 11.5 & 12
 
 #### Usage
 
-==Disclaimer: use this at your own risk! Please read and understand the script before executing!==
+> **Disclaimer**: Use this at your own risk! Please read and understand the script before executing
 
 ```bash
 wget -O - https://gist.githubusercontent.com/Stayallive/4e33041d590cd01d85d4/raw/b68f277316bfd9bdf6305d1353c061bc4e7a930b/install.sh | bash

@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2015-04-07T19:05:00+01:00
-description = ""
 draft = false
 slug = "finally-plesk-12-supports-multiple-php-versions-out-of-the-box"
 tags = ["automated", "php", "plesk"]

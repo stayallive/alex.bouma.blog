@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2014-07-28T23:51:00+01:00
-description = ""
 draft = false
 slug = "enable-passive-ftp-plesk-11-and-12"
 tags = ["firewall", "ftp", "plesk"]

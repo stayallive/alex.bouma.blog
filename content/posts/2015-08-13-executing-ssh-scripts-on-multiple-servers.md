@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2015-08-13T12:58:00+01:00
-description = ""
 draft = false
 cover = "/img/ghost/unsplash-highway.jpg"
 slug = "executing-ssh-scripts-on-multiple-servers"

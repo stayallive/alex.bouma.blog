@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2013-03-18T11:00:00+01:00
-description = ""
 draft = false
 slug = "project-hhs-rooster-hhs-schedule"
 tags = ["php", "projects", "saas"]

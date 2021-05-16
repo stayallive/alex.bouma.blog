@@ -1,7 +1,6 @@
 +++
 author = "Alex Bouma"
 date = 2015-08-31T21:58:00+01:00
-description = ""
 draft = false
 cover = "/img/ghost/laravel.jpg"
 slug = "how-to-store-user-id-in-the-session-table"

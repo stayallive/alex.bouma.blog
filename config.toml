@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Alex Bouma"
+title = "Alex Bouma Blog"
 theme = "terminal"
 author = "Alex Bouma"
 paginate = 10
@@ -20,7 +20,7 @@ assetDir = "themes/terminal/static/assets"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Alex Bouma"
+    title = "Alex Bouma Blog"
     subtitle = "Entrepreneur, developer and artisan"
     keywords = ""
     copyright = ""

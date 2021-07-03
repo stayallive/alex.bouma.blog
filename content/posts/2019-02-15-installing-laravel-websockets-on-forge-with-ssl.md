@@ -301,6 +301,8 @@ _Note: [the docs document](https://beyondco.de/docs/laravel-websockets/basic-usa
 
 Next is opening up port `6002` in the firewall so it's reachable from the internet. You can do that from the Network tab of your Forge server and add a rule called "Websockets" or something descriptive and port `6002` and leave the IP's field blank (all IP's are allowed to connect to this port).
 
+_Note: If your server is hosted by AWS EC2 make sure the assigned security group also allows inbound TCP traffic to port `6002`._
+
 After this there is just 1 thing left to do! Start up the websockets server as a daemon so it is automatically restarted in case it crashed or the server reboots!
 
 To do that in Forge go to the Daemons tab of your server and add a new daemon with the command `php artisan websockets:serve` and set the directory to wherever your site is located on the server, in my case this is `/home/forge/laravel-ws-example.bouma.blog`. If you are deploying with [Envoyer](https://envoyer.io)/[Deployer](https://deployer.org/) or something similair you might need a path like `/home/forge/laravel-ws-example.bouma.blog/current`to point to the current path of your application.

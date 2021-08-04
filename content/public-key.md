@@ -1,5 +1,7 @@
 ---
 title: "Public key"
+description: "Information you need for giving me access to servers or share something private with me."
+summary: "Information you need for giving me access to servers or share something private with me."
 ---
 
 #### Server access

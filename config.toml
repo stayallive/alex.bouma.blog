@@ -44,10 +44,10 @@ assetDir = "themes/terminal/static/assets"
         url = "/posts"
         weight = 2
       [[languages.en.menu.main]]
-        identifier = "public-key"
-        name = "Public key"
-        url = "/public-key"
-        weight = 3
+        identifier = "bookmarks"
+        name = "Bookmarks"
+        url = "https://bouma.link/bookmarks"
+        weight = 10
       [[languages.en.menu.main]]
         identifier = "chief"
         name = "Chief Tools"

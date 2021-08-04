@@ -6,8 +6,14 @@ title: "Public key"
 
 If you ever need to give me access to a server whitelist the following `ed25519` public key.
 
-```ssh
+```text
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKkoFje/EO1nsUbSchxh2UigxgP5o0J10R+jRGEpHKsj me@alexbouma.me
+```
+
+If you really must use it I also have a `rsa` public key but try the one above first.
+
+```text
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB4SdHVju8qsxsMsvhIeZYQqxTmRwrR8LAF5WJqE/ux5F7UUdwMypcjtSY+T3iCP7l0TaBZPeEzT8g/KiaIRHjTmTQHYMgqIX9pDrxRcW7bE3tdjVerTdX7WK1/eyyPTknzXxsmH/Ck2iaG4T0gt1yJLsIEtwUP3/W6IatYLgSb4O73zsidB8qLycPv7YARFJMPrO5LFy8rCsv/noI65TS3gCxv6aSTbWGJIn1FyYCXRzOBQOYce/XPDr1YrWW9tz/3fCpwqQIMovgQWSuB6fS33atkOde/6DYkZYrUiz1nB5JkpAClUiF2kmdjE7Uar0qoRTzQDt1aHl8mtQyx9dZ me@alexbouma.me
 ```
 
 #### Encrypted contact

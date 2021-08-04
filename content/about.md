@@ -4,8 +4,6 @@ title: "About"
 
 **tl;dr about me:** I’m an entrepreneur, developer and [artisan](http://laravel.com). I co-founded [Simulise](https://www.simulise.com/en). I build applications for the web, mobile and desktop and also manage & maintain some servers.
 
-If you want to talk to me you can shoot me an [email](mailto:alex@bouma.dev) or hit me up on Twitter [@stayallive](https://twitter.com/stayallive "Twitter - Stayallive") (yeah, that’s with 2 l’s).
-
 #### About the entrepreneur part
 
 I work (and co-founded) [@Simulise](https://www.simulise.com/en "Simulise"), a little bit about it:
@@ -31,3 +29,9 @@ And if that wasn't enough things to keep me busy I'm also building [Chief Tools]
 #### About the artisan part
 
 I _love_ the [Laravel](http://laravel.com) PHP framework and have built quite some applications (both private and [public](https://alex.bouma.dev/tag/projects/)) with it (since version 3 all the way up to 7). Have any questions? Hit me up on the [Larachat](https://larachat.co/) Slack group (@stayallive), shoot me an [email](mailto:alex+laravel@bouma.dev) or maybe ping me on Twitter [@stayallive](https://twitter.com/stayallive "Twitter - Stayallive") if you can fit it in 280 chars 😉.
+
+#### Get in contact
+
+If you want to talk to me you can shoot me an [email](mailto:alex@bouma.dev) or hit me up on Twitter [@stayallive](https://twitter.com/stayallive "Twitter - Stayallive") (yeah, that’s with 2 l’s).
+
+Want to share server access or sharing something that needs to be secret, use one of my [public keys](/public-key).

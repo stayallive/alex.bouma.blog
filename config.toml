@@ -16,6 +16,11 @@ assetDir = "themes/terminal/static/assets"
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = true
+  favicon = "/favicons/favicon.ico"
+
+[params.twitter]
+  creator = "stayallive"
+  site = "https://alex.bouma.blog"
 
 [languages]
   [languages.en]

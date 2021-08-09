@@ -7,8 +7,16 @@
 {{ template "_internal/google_analytics.html" . }}
 
 <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "assets/style.css" | absURL }}">
+{{ if (isset .Params "color") }}
+  <link rel="stylesheet" href="{{ (printf "assets/%s.css" .Params.color) | absURL }}">
+{{ else if and (ne $.Site.Params.ThemeColor "orange") (ne $.Site.Params.ThemeColor "color" "") }}
+  <link rel="stylesheet" href="{{ (printf "assets/%s.css" $.Site.Params.ThemeColor) | absURL }}">
+{{ end }}
 
-<link rel="stylesheet" href="{{ (resources.Get "style.css" | resources.Fingerprint).Permalink }}">
+{{ if (fileExists "static/style.css") -}}
+  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+{{- end }}
 
 <!-- Icons -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "/favicons/apple-touch-icon.png" | absURL }}?v=afYW2">

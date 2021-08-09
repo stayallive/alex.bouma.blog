@@ -13,8 +13,12 @@
   </div>
 </footer>
 
-<script src="{{ (resources.Get "main.js" | resources.Fingerprint).Permalink }}"></script>
-<script src="{{ (resources.Get "prism.js" | resources.Fingerprint).Permalink }}"></script>
+<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/prism.js" | absURL }}"></script>
+
+{{ if $.Site.Params.showLanguageSelector }}
+  <script src="{{ "assets/languageSelector.js" | absURL }}"></script>
+{{ end }}
 
 <!-- Extended footer section-->
 {{ partial "extended_footer.html" . }}

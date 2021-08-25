@@ -8,9 +8,7 @@ title = "Multiple PHP versions for Plesk 11.5 and 12 (CentOS 6)"
 aliases = ["/multiple-php-versions-for-plesk-11-5-and-12-centos-6"]
 +++
 
-> **Update 2:** [Plesk 12 supports multiple PHP versions out of the box!](https://alex.bouma.me/finally-plesk-12-supports-multiple-php-versions-out-of-the-box/) 
-
-> **Update 1:** Automated and updated scripts are available for PHP [5.4](http://alex.bouma.me/install-php-5-4-plesk-11-5-12-centos-6/ "Install PHP 5.4 on Plesk 11.5 and 12 (CentOS 6)"), [5.5](http://alex.bouma.me/install-php-5-5-plesk-11-5-12-centos-6/ "Install PHP 5.5 on Plesk 11.5 and 12 (CentOS 6)") and [5.6](http://alex.bouma.me/install-php-5-6-plesk-11-5-12-centos-6/ "Install PHP 5.6 on Plesk 11.5 and 12 (CentOS 6)")
+> **Update:** [Plesk 12 supports multiple PHP versions out of the box!](https://alex.bouma.me/finally-plesk-12-supports-multiple-php-versions-out-of-the-box/) 
 
 This post will cover the install of multiple PHP versions on Plesk 11.5.
 

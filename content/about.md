@@ -6,7 +6,7 @@ title: "About"
 
 #### About the artisan part
 
-I _love_ the [Laravel](https://laravel.com/) PHP framework and have built quite some applications (both private and [public](https://alex.bouma.dev/tag/projects/)) with it (since version 3 all the way up to the bleeding edge). Have any questions? Hit me up on [Twitter]((https://twitter.com/stayallive)) or shoot me an [email](mailto:alex+laravel@bouma.dev).
+I _love_ the [Laravel](https://laravel.com/) PHP framework and have built quite some applications (both private and [public](https://alex.bouma.dev/tag/projects/)) with it (since version 3 all the way up to the bleeding edge). Have any questions? Hit me up on [Twitter](https://twitter.com/stayallive) or shoot me an [email](mailto:alex+laravel@bouma.dev).
 
 #### About the full stack dev and server wrangler part
 

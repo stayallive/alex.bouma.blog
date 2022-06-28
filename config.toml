@@ -9,7 +9,7 @@ assetDir = "themes/terminal/static/assets"
 
 [params]
   author = "Alex Bouma"
-  tagline = "PHP artisan, full stack developer and server lover | Founder @simulise | Building https://chief.app"
+  tagline = "PHP artisan, full stack developer and server lover | Building https://chief.app"
   contentTypeName = "posts"
   themeColor = "orange"
   showMenuItems = 6
@@ -26,7 +26,7 @@ assetDir = "themes/terminal/static/assets"
   [languages.en]
     languageName = "English"
     title = "Alex Bouma Blog"
-    subtitle = "Entrepreneur, developer and artisan"
+    subtitle = "PHP artisan, full stack dev and server wrangler"
     keywords = ""
     copyright = ""
     menuMore = "Show more"

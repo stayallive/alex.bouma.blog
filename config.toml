@@ -32,6 +32,7 @@ assetDir = "themes/terminal/static/assets"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
+    showMenuItems = 7
 
     [languages.en.params.logo]
       logoText = "Alex Bouma"

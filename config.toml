@@ -56,7 +56,7 @@ assetDir = "themes/terminal/static/assets"
       [[languages.en.menu.main]]
         identifier = "chief"
         name = "Chief Tools"
-        url = "https://chief.app/"
+        url = "https://chief.app?ref=alexblog"
         weight = 100
       [[languages.en.menu.main]]
         identifier = "social-github"
@@ -67,4 +67,10 @@ assetDir = "themes/terminal/static/assets"
         identifier = "social-twitter"
         name = "Twitter"
         url = "https://twitter.com/stayallive"
-        weight = 200
+        weight = 201
+      [[languages.en.menu.main]]
+        identifier = "social-mastodon"
+        name = "Mastodon"
+        url = "https://phpc.social/@stayallive"
+        weight = 202
+        rel = "me"

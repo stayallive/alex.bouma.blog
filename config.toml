@@ -72,6 +72,6 @@ assetDir = "themes/terminal/static/assets"
       [[languages.en.menu.main]]
         identifier = "social-mastodon"
         name = "Mastodon"
-        url = "https://phpc.social/@stayallive"
+        url = "https://bouma.social/@alex"
         weight = 202
         rel = "me"

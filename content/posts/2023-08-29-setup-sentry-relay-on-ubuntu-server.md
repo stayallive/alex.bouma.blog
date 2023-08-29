@@ -37,18 +37,20 @@ There are 3 operating [modes for Relay](https://docs.sentry.io/product/relay/mod
 
 I will focus on the `proxy` mode in this guide since it's the easiest to setup but apart from the specific configuration the setup is the same for all modes.
 
-> _Note: I am assuming a few things in this "guide". That the reader knows how to use SSH and can perform basic command line actions. It is also assumed you are installing Relay on a Ubuntu server with `systemd` (the guide was tested on Ubuntu 18.04/20.04/22.04)._
+> _Note: I am assuming a few things in this guide. That the reader knows how to use SSH and can perform basic command line actions. It is also assumed you are installing Relay on a Ubuntu server with `systemd` (the guide was tested on Ubuntu 18.04/20.04/22.04)._
 
 If you'd rather follow the official guide, you can find it [here](https://docs.sentry.io/product/relay/getting-started/), I will focus on running a binary with `systemd` but there is also a Docker option in the official [Getting Started](https://docs.sentry.io/product/relay/getting-started/) guide.
 
-If you are using [Ploi](https://ploi.io/?referrer=BwZowvI55rM5y9ZVqjdB) to manage your servers you can use [this marketplace script](https://ploi.io/panel/marketplace/305-sentry-relay?referrer=BwZowvI55rM5y9ZVqjdB) that performs the steps outlined below.
-However I highly recommend you read through this guide so you know what is happening and how to update Relay in the future.
+_If you are using [Ploi](https://ploi.io/?referrer=BwZowvI55rM5y9ZVqjdB) to manage your servers you can use [this marketplace script](https://ploi.io/panel/marketplace/305-sentry-relay?referrer=BwZowvI55rM5y9ZVqjdB) that performs the steps outlined below.
+However I highly recommend you read through this guide so you know what is happening and how to update Relay in the future._
 
 ## Installing Relay
 
-Let's start by downloading the latest binary from the [Sentry Relay releases page](https://github.com/getsentry/relay/releases).
+Start by SSH'ing into your server and switching to the root user using `sudo su`.
 
-At the time of writing this is `23.8.0`, but you should check the [release page](https://github.com/getsentry/relay/releases) to see if there is a newer version.
+Now the fun begins, starting with downloading the latest Relay binary from the [Sentry Relay releases page](https://github.com/getsentry/relay/releases).
+
+> _Note: At the time of writing the latest release is `23.8.0`, but you should check the [release page](https://github.com/getsentry/relay/releases) to see if there is a newer version._
 
 You want to download the `relay-Linux-x86_64` release asset since that is the binary for Linux, at the time of writing there is no ARM binary.
 
@@ -70,7 +72,9 @@ mv sentry-relay /usr/local/bin
 
 ## Configuring Relay
 
-Now we need to create the configuration file for Relay, this is a YAML file that contains the configuration for Relay.
+We downloaded the binary and made it available globally, now we need to configure Relay so it knows how to connect to Sentry and what to do with the events it receives.
+
+Start by creating a folder the configuration file, and use `sentry-relay` to generate the `config.yml`. This YAML file contains the configuration for Relay and if you need to edit it later you can find it at: `/etc/sentry-relay/config.yml`.
 
 ```bash
 mkdir -p /etc/sentry-relay
@@ -102,6 +106,8 @@ A: no
 > _Note: If you run a self-hosted instance replace the upstream answer with the hostname of your self-hosted instance._
 
 ## Setup `systemd` service
+
+We downloaded the binary, made it executable, and created a configuration file. We are almost done!
 
 Now we need to setup `systemd` so Relay will start on boot and can be managed via `systemd`.
 

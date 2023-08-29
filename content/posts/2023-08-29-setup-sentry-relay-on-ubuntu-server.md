@@ -111,7 +111,7 @@ useradd -r -s /bin/false sentry-relay
 This new user needs to be the owner of the configuration file we created earlier:
 
 ```bash
-chown -Rf sentry-relay:sentry-relay /etc/sentry-relay-test
+chown -Rf sentry-relay:sentry-relay /etc/sentry-relay
 ```
 
 We also need to create a `systemd` service file for Relay, this will tell `systemd` how to start Relay and what user to run it as.

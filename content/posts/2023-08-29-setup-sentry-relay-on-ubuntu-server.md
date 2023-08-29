@@ -41,6 +41,9 @@ I will focus on the `proxy` mode in this guide since it's the easiest to setup b
 
 If you'd rather follow the official guide, you can find it [here](https://docs.sentry.io/product/relay/getting-started/), I will focus on running a binary with `systemd` but there is also a Docker option in the official [Getting Started](https://docs.sentry.io/product/relay/getting-started/) guide.
 
+If you are using [Ploi](https://ploi.io/?referrer=BwZowvI55rM5y9ZVqjdB) to manage your servers you can use [this marketplace script](https://ploi.io/panel/marketplace/305-sentry-relay?referrer=BwZowvI55rM5y9ZVqjdB) that performs the steps outlined below.
+However I highly recommend you read through this guide so you know what is happening and how to update Relay in the future.
+
 ## Installing Relay
 
 Let's start by downloading the latest binary from the [Sentry Relay releases page](https://github.com/getsentry/relay/releases).

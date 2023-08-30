@@ -8,8 +8,8 @@ tags:
   - guide
 date: 2023-08-29T10:00:00+02:00
 lastmod: 2023-08-29T10:00:00+02:00
-description: "Let's setup a Sentry Relay on Ubuntu to speed up event sending to Sentry and make it more reliable."
-summary: "Let's setup a Sentry Relay on Ubuntu to speed up event sending to Sentry and make it more reliable."
+summary: "Learn how to setup Sentry Relay to speed up sending events to Sentry and make it more reliable."
+description: "Lean how to setup Sentry Relay to speed up sending events to Sentry and make it more reliable."
 keywords:
   - sentry
   - ubuntu

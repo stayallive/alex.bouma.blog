@@ -79,7 +79,7 @@ Start by creating a folder the configuration file, and use `sentry-relay` to gen
 ```bash
 mkdir -p /etc/sentry-relay
 sentry-relay config init -c /etc/sentry-relay
-````
+```
 
 This will ask a few questions on how to setup Relay, you can find the answers below:
 
